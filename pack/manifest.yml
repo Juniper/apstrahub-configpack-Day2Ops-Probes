@@ -1,6 +1,6 @@
 ---
 manifest_version: 1
-description: This is an example pack which includes a single configlet.
+description: This pack includes an EVPN host flapping monitoring probe for EOS and Junos leafs.
 supported_apstra_versions:
   - 6.1.0
   - 6.1.1
