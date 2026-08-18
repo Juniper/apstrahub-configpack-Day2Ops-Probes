@@ -1,6 +1,6 @@
 # Day2Ops Probes
 
-This pack creates an EVPN host flapping monitoring probe for EOS and Junos leafs.
+This pack creates an EVPN host flapping monitoring probe for EOS and Junos leafs and is relevant for deployments using Day2Ops mode.
 
 The probe monitors MAC addresses learned alternately from local and VTEP interfaces and raises an anomaly when flapping is sustained.
 
