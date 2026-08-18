@@ -1,5 +1,11 @@
-# example
+# Day2Ops Probes
 
-This pack is primarily a template intended to help pack publishers put together their own packs and pack release workflows.
+This pack creates an EVPN host flapping monitoring probe for EOS and Junos leafs.
 
-It a simple example which creates a single _configlet_ in the Apstra global catalog.
+The probe monitors MAC addresses learned alternately from local and VTEP interfaces and raises an anomaly when flapping is sustained.
+
+## Components
+
+| Component | Name | Description |
+| ----------- | ------ | ------------- |
+| Probe | dc-evpn-host-flapping | Monitors EVPN MAC flapping and raises a sustained-flapping anomaly per leaf |

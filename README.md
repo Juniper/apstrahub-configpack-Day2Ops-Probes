@@ -1,6 +1,6 @@
-# apstrahub-configpack-example
+# apstrahub-configpack-Day2Ops-Probes
 
-This repository contains an ApstraHub ConfigPack.
+This repository contains an ApstraHub ConfigPack with an EVPN host flapping monitoring probe for EOS and Junos leafs.
 
 ConfigPack documentation intended for end users is required to appear [here, in the README.md file in the `pack` directory](./pack/README.md). Check that file for details about this ConfigPack.
 
